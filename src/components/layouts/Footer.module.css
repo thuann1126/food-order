@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  background-color: #ff9551;
+}
+
+.footerLabel {
+  padding-top: 10%;
+  font-size: 1.5rem;
+}
+.downloadIconContainer {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.downloadIcon {
+  width: 28%;
+  height: 100%;
+}
+
+.footerCopyRight {
+  grid-column: 1 / span 2;
+  display: inline-flex;
+  flex-direction: row;
+  white-space: nowrap;
+  column-gap: 5%;
+  width: 100%;
+  justify-content: center;
+}

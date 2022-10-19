@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0% 15%;
+  background: #cd104d;
+  color: white;
+}
+li:hover {
+  color: #fd841f;
+}
+
+.navGroup {
+  display: flex;
+  padding: 0% 10%;
+  justify-content: center;
+  justify-items: center;
+  list-style: none;
+  column-gap: 50%;
+  row-gap: 5px;
+  font-size: 1.25rem;
+}
+
+img {
+  width: fill;
+  max-height: 400px;
+}
+
+@media screen and (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navGroup {
+    flex-direction: column;
+  }
+}
